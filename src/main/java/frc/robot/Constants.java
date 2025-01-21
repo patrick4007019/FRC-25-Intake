@@ -41,6 +41,17 @@ public final class Constants {
     REPLAY
   }
 
+  public static final class IntakeConstants {
+    public static final LoggedTunableNumber kPivotP = new LoggedTunableNumber("IntakePivotP", 3.0);
+
+    public static final double kIdleVoltage = 0.0;
+    public static final double kIntakingVoltage = 1.0;
+
+    public static final double kSimGearbox = 1.0;
+    public static final double kSimGearing = 3.0;
+    public static final double kSimMOI = 1.0;
+  }
+
   public static final class DriveConstants {
     public static final double kMaxLinearSpeed = 3.0; // meters per second
     public static final double kMaxLinearAcceleration = 2.5; // meters per second squared
